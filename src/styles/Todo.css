@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500&display=swap');
+
+.todo-card {
+    margin: 1rem .5rem;
+    padding: .5rem;
+    width: 20%;
+    height: 20%;
+    background-color: #F5E6CA;
+    border-radius: 10px;
+    color: #343F56;
+
+    font-size: 20px;
+    font-family: 'Tajawal', sans-serif;
+    
+    box-shadow: 13px 18px 17px -14px rgba(179,179,179,1);
+    
+
+}
+
+.btn-actions{
+    margin: .5rem;
+
+}
+
+.complete {
+    padding: 10px;
+
+    background-color: rgba(228, 228, 228, 0.644);
+    color: rgb(92, 91, 91);
+    
+    border: none;
+    border-radius: 12px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.reset {
+    padding: 10px;
+    
+    background-color: #fb9200a9;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.complete:hover{
+    background-color: rgba(173, 173, 173, 0.644);
+    color: rgb(124, 124, 124);
+}
+
+.reset:hover{
+    background-color: #ff9f19;
+    color: rgb(224, 220, 220); 
+}

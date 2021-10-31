@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500&display=swap');
+
+
+header{
+    padding: 2px 2rem;
+    background-image: url(https://images.unsplash.com/photo-1601321268954-22646044f7d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+header .logo{
+    color: rgb(5, 4, 61);
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+.btn-header {
+
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    width: 200px;
+    background-color: cornflowerblue;
+    color: rgb(44, 44, 44);
+
+    border: none;
+    border-radius: 5px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+.btn-header:hover{
+
+    background-color: rgb(63, 83, 119);
+    color: rgb(0, 0, 0);
+}
+
